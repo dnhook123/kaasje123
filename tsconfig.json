@@ -1,18 +1,15 @@
 {
     "compilerOptions": {
-        "strict": true,
-        "outDir": "bin",
-        "target": "es2016",
+        "declaration": true,
+        "strictNullChecks": true,
+        "target": "es5",
+        "outDir": "dist",
         "module": "commonjs",
         "moduleResolution": "node",
         "sourceMap": true,
-        "experimentalDecorators": true,
-        "pretty": true,
-        "noFallthroughCasesInSwitch": true,
-        "noImplicitReturns": true,
-        "forceConsistentCasingInFileNames": true
+        "lib": ["es2015", "dom"],
+        "rootDir": "src"
     },
-    "files": [
-      "index.ts"
-    ]
+    "include": ["src"],
+    "exclude": ["node_modules", "dist"]
 }

@@ -1,16 +1,28 @@
 {
-  "name": "modules",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.ts",
+  "name": "pulumi-cr-platform-component",
+  "version": "2.0.4",
+  "description": "please welp",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "devDependencies": {
     "@types/node": "^14"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
   },
   "dependencies": {
     "@pulumi/aws": "^5.0.0",
     "@pulumi/pulumi": "^3.30.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dnhook123/david-test-please-work.git"
+  },
   "keywords": [],
-  "author": "",
+  "author": "monisnap-jason",
   "license": "ISC"
 }
