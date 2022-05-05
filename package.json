@@ -1,5 +1,5 @@
 {
-  "name": "pulumi-cr-platform-component",
+  "name": "modules",
   "version": "2.0.4",
   "description": "please welp",
   "main": "src/index.ts",
